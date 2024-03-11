@@ -1,0 +1,8 @@
+package com.event_management.event_management_app.service;
+
+import com.event_management.event_management_app.model.User;
+
+public interface UserService {
+
+	User CreateUser(User user);	
+}

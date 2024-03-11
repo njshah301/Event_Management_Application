@@ -1,0 +1,7 @@
+package com.event_management.event_management_app.Repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface UserRepository externds MongoRepository<User, String> {
+
+}

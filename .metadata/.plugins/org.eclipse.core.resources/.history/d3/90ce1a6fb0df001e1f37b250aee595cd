@@ -1,0 +1,3 @@
+
+spring.data.mongodb.uri=mongodb+srv://njshah301:*NILAy4564*@cluster0.lyugc.mongodb.net/test
+spring.data.mongodb.database=test

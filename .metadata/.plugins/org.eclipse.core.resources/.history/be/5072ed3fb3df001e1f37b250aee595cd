@@ -1,0 +1,14 @@
+package com.event_management.event_management_app.service.serviceImpl;
+
+import com.event_management.event_management_app.model.User;
+import com.event_management.event_management_app.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public User createUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

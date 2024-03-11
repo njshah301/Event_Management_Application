@@ -1,0 +1,31 @@
+package com.event_management.event_management_app.service.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.event_management.event_management_app.Repository.UserRepository;
+import com.event_management.event_management_app.model.User;
+import com.event_management.event_management_app.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	
+	
+	
+	
+	@Autowired
+	
+	private UserRepository userRepository;
+	
+	@Override
+	public User createUser(User user) {
+		userRepository.save(user);
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public User CreateUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
