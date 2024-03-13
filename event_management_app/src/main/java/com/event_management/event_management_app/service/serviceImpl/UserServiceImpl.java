@@ -1,0 +1,30 @@
+package com.event_management.event_management_app.service.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.event_management.event_management_app.Repository.UserRepository;
+import com.event_management.event_management_app.model.User;
+import com.event_management.event_management_app.service.UserService;
+@Service
+public class UserServiceImpl implements UserService {
+
+	
+	
+	
+	
+	@Autowired
+	
+	private UserRepository userRepository;
+	
+	@Override
+	public User createUser(User user) {
+		userRepository.save(user);
+		return user;
+	}
+
+	
+
+	
+
+}
